@@ -1,5 +1,5 @@
 '''
-Ejercicio Final Devasc: Ecamen de Habilidades 
+Ejercicio Final Devasc: Examen de Habilidades 
 Alumno: Alejandro Medicina
 Propuesta:
 1 - Obtener los id de las organizaciones.
@@ -58,7 +58,6 @@ response_json_netid = response_netid.json()
 print(json.dumps(response_json_netid, indent=2))
 print("-"*100)
 
-#Obtener SerialID de la 4 posicion , ID = XXXXXXXXX
 Id_serial = response_json_net_dev[0]['serial']
 
 print("Step 6: Get device information - ",Id_serial)
